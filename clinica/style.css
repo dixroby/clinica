@@ -1,0 +1,80 @@
+.header > ul {
+    background-color: #16b0c8;
+}
+.header ul > li {
+    display: inline-block;
+    list-style: none;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+.header ul > li:hover {
+    color: white;
+}
+.header > ul > li > img {
+    width: 100px;
+    height: 100px;
+}
+.header li > a {
+    text-decoration: none;
+    color: black;
+    
+}
+.enlaces {
+    display: flex;
+    justify-content: space-evenly;
+}
+.enlaces > li {
+    list-style: none;
+    display: inline;
+}
+.enlaces li > a:hover {
+    color: white;
+}
+
+.portada {
+    border: 5px solid black;
+    height: 600px;
+}
+.titulo-servicios {
+    text-align: center;
+}
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    width: 100%;
+}
+.services > .seccion {
+    background-color: #16b0c8;
+    border: 1px solid gray;
+    width: 25%;
+    height: 260px;
+    text-align: center;
+    margin: 10px 10px;
+
+}
+.services > .seccion:hover {
+    background-color: white;
+    transition: 0.5s;
+    margin: 20px 20px;
+}
+.img-servicios {
+    border: 1px solid black;
+    height: 70%;
+    margin: 10px 10px;
+}
+.titulo-doctores {
+    text-align: center;
+}
+.doctors-photos {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+.doctors-photos > .photo {
+    border: black solid 1px;
+    margin: 15px 15px;
+}
